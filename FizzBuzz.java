@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class FizzBuzz {
     public static List<String> fizzBuzz(int n) {
         List<String> answer = new ArrayList<>();
@@ -15,10 +14,8 @@ public class FizzBuzz {
                 answer.add(String.valueOf(i));
             }
         }
-
         return answer;
     }
-
     public static void main(String[] args) {
         int n = 15; // Example input
         System.out.println(fizzBuzz(n));
