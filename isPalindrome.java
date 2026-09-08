@@ -10,7 +10,7 @@ class Solution {
          }
          return var1 == var2 || var1 == var2 / 10;
       } else {
-         return false;
+         return false;//mohityh
       }
    }
 }
